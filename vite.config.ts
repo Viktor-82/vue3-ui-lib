@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'MyUiLib',
-      fileName: (format) => `my-ui-lib.${format}.js`,
+      fileName: (format) => `ui-lib.${format}.js`,
       formats: ['es', 'umd']
     },
     rollupOptions: {
